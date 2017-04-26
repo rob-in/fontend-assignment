@@ -52,3 +52,74 @@ body {
     color: #337ab7;
     font-size: 18px;
 }
+
+/* Common Css Properties applied at multiple elements*/
+
+.card-number-input-box, .cvv-input-box input, .month select, .year select, .validate-btn{
+    height: 42px;
+}
+
+.card-number-input-box, .cvv-input-box input, .month select, .year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+		color: #86939e;
+    opacity: .7;
+}
+
+/* Card Number Input box*/
+
+.card-number-input-box {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 6px;
+}
+
+
+/* Date Field */
+
+.month select, .year select {
+    width: 160px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+}
+
+.month select {
+    float: left;
+}
+
+.year select {
+    float: right;
+}
+
+
+/* CVV Field */
+
+.cvv-input-box input {
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    background: #fff;
+    width: 100px;
+    float: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Footer Buttons Section */
+
+.validate-btn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-color: transparent;
+    border-radius: 6px;
+		background: #FF0000;
+		font-size: 16px;
+		color: white;
+		cursor: pointer;
+}
